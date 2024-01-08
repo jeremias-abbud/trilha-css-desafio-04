@@ -83,16 +83,24 @@ main {
 }
 
 
-.section-1, .section-2, .section-3, .section-4 {
+.section-1, .section-2, .section-3 {
     display: flex;
     width: 100vw;
-    height: 448px;
     justify-content: center;
     align-items: center;
     gap: 16px;
     flex-shrink: 0;
 }
 
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
 
 .section-4-text {
     width: 802px;
