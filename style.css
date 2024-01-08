@@ -83,7 +83,9 @@ main {
 }
 
 
-.section-1, .section-2, .section-3 {
+.section-1,
+.section-2,
+.section-3 {
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -212,7 +214,10 @@ footer {
     }
 
 
-    .section-1, .section-2, .section-3, .section-4{
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4 {
         display: flex;
         width: 100vw;
         padding: 40px 24px;
@@ -222,6 +227,20 @@ footer {
         gap: 27px;
     }
 
+    /* Heading */
+    .section-1 .text h2 {
+        margin-bottom: 14px;
+    }
+
+    /* Heading */
+    .section-2 .text h2 {
+        margin-bottom: 14px;
+    }
+
+    /* Heading */
+    .section-3 .text h2 {
+        margin-bottom: 14px;
+    }
 
     .section-4-text {
 
