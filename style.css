@@ -8,6 +8,9 @@
     vertical-align: baseline;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 header {
     background: url(/assets/Header\ Background2.png), lightgray 50% / auto no-repeat;
@@ -79,6 +82,9 @@ main {
     justify-content: center;
 }
 
+img {
+    max-width: 100%;
+}
 
 .section-1,
 .section-2,
@@ -112,13 +118,6 @@ main {
     line-height: normal;
 }
 
-.image-4,
-.image-3,
-.image-2,
-.image-1 {
-    width: 784px;
-    height: 508px;
-}
 
 .title-1 {
     width: 608px;
@@ -174,6 +173,7 @@ footer {
 
 @media screen and (max-width: 428px) {
 
+    
     header {
         background: url(/assets/Header\ Background.png), lightgray -711.152px 0px / 343.529% 100% no-repeat;
         height: 506px;
@@ -221,17 +221,14 @@ footer {
         gap: 27px;
     }
 
-    /* Heading */
     .section-1 .text h2 {
         margin-bottom: 14px;
     }
 
-    /* Heading */
     .section-2 .text h2 {
         margin-bottom: 14px;
     }
 
-    /* Heading */
     .section-3 .text h2 {
         margin-bottom: 14px;
     }
@@ -241,13 +238,6 @@ footer {
         width: 300px;
     }
 
-    .image-4,
-    .image-3,
-    .image-2,
-    .image-1 {
-        width: 300px;
-        height: 250px;
-    }
 
     .title-1 {
         width: 300px;
