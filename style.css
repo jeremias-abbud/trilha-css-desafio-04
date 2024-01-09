@@ -8,9 +8,6 @@
     vertical-align: baseline;
 }
 
-body {
-    width: 1280px;
-}
 
 header {
     background: url(/assets/Header\ Background2.png), lightgray 50% / auto no-repeat;
@@ -176,9 +173,6 @@ footer {
 }
 
 @media screen and (max-width: 428px) {
-    body {
-        width: 428px;
-    }
 
     header {
         background: url(/assets/Header\ Background.png), lightgray -711.152px 0px / 343.529% 100% no-repeat;
